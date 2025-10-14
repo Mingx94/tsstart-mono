@@ -1,0 +1,21 @@
+{
+	"name": "@repo/eslint-config",
+	"version": "0.0.0",
+	"type": "module",
+	"private": true,
+	"exports": {
+		"./base": "./base.js",
+		"./tanstack-start": "./tanstack-start.js",
+		"./react-internal": "./react-internal.js"
+	},
+	"devDependencies": {
+		"@antfu/eslint-config": "catalog:",
+		"@eslint-react/eslint-plugin": "catalog:",
+		"eslint": "catalog:",
+		"eslint-plugin-format": "catalog:",
+		"eslint-plugin-react": "catalog:",
+		"eslint-plugin-react-hooks": "catalog:",
+		"eslint-plugin-react-refresh": "catalog:",
+		"typescript": "catalog:"
+	}
+}

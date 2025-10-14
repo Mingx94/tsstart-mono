@@ -1,0 +1,19 @@
+{
+	"name": "with-vite-react",
+	"private": true,
+	"scripts": {
+		"build": "turbo run build",
+		"dev": "turbo run dev",
+		"lint": "turbo run lint",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"prettier": "catalog:",
+		"prettier-plugin-tailwindcss": "catalog:",
+		"turbo": "catalog:"
+	},
+	"packageManager": "pnpm@10.18.2",
+	"engines": {
+		"node": ">=22.18.0"
+	}
+}
